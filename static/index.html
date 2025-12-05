@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgentForge — Multi-Agent AI System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="logo">🤖 AgentForge</div>
+            <p class="tagline">Multi-agent AI system — agents that work together</p>
+        </header>
+        <div class="control-panel">
+            <div class="field">
+                <label>Task</label>
+                <textarea id="taskInput" placeholder="Describe what you want the agents to do..." rows="3"></textarea>
+            </div>
+            <div class="field">
+                <label>Workflow</label>
+                <div class="workflow-cards" id="workflows"></div>
+            </div>
+            <button class="btn" id="runBtn">▶ Run Agents</button>
+        </div>
+        <div class="agents-bar" id="agentsBar"></div>
+        <div class="execution hidden" id="execution">
+            <h2>Execution Timeline</h2>
+            <div class="timeline" id="timeline"></div>
+            <div class="summary-bar" id="summaryBar"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>
