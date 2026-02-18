@@ -1,0 +1,8 @@
+{
+  "task": "Research latest trends in edge AI and write a summary",
+  "workflow": "research",
+  "options": {
+    "depth": "detailed",
+    "format": "markdown"
+  }
+}
