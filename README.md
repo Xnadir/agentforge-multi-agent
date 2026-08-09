@@ -1,4 +1,6 @@
-# AgentForge — Multi-Agent AI System 🤖
+# AgentForge — Multi-Agent AI System
+
+![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![License](https://img.shields.io/badge/license-MIT-green) — Multi-Agent AI System 🤖
 
 A system where multiple AI agents work together to solve complex tasks. Give it a job — like "research a topic and write a report" — and watch the agents collaborate.
 
