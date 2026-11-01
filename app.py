@@ -8,6 +8,9 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import uvicorn
+import logging
+
+logger = logging.getLogger(__name__)
 
 from orchestrator import run_workflow, run_custom_chain, get_workflows
 from agents import list_agents
