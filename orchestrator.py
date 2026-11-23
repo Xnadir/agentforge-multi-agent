@@ -103,3 +103,4 @@ def run_custom_chain(task: str, agent_ids: list) -> dict:
 
 def get_workflows():
     return [{"id": k, **v} for k, v in WORKFLOWS.items()]
+

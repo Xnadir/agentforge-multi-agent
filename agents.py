@@ -97,3 +97,4 @@ def get_agent(agent_id: str) -> Agent:
 
 def list_agents() -> list:
     return [{"id": k, "name": v.name, "role": v.role, "goal": v.goal} for k, v in AGENTS.items()]
+

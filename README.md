@@ -17,7 +17,7 @@ Each agent has a specific role: Researcher finds information, Analyst processes 
 ## Getting Started
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/agentforge-multi-agent.git
+git clone https://github.com/Xnadir/agentforge-multi-agent.git
 cd agentforge-multi-agent
 
 python -m venv venv

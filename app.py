@@ -58,3 +58,4 @@ if __name__ == "__main__":
     print("\n🤖 Starting AgentForge Multi-Agent System...")
     print("   Open http://localhost:8000 in your browser\n")
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
